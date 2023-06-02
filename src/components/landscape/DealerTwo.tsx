@@ -143,7 +143,7 @@ const DealerTwo = ({
         )}
         {stand && sum3 < 18 ? (
           <button
-            className="mt-auto h-8 w-40 self-center rounded bg-yellow-500 px-4 font-bold text-white hover:bg-yellow-700"
+            className="mt-auto h-8 w-40 self-center rounded bg-yellow-500 px-4 font-bold text-white active:bg-yellow-700"
             type="button"
             onClick={handleIncrement}
           >
