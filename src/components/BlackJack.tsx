@@ -59,7 +59,7 @@ const BlackJack = () => {
           setShuffle={setShuffle}
           setStand={setStand}
         />
-        <Footer />
+        {/* <Footer /> */}
       </div>
       <div className="flex min-h-screen flex-col justify-evenly bg-green-900 portrait:hidden">
         <DealerTwo
@@ -80,8 +80,8 @@ const BlackJack = () => {
           setShuffle={setShuffle}
           setStand={setStand}
         />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };

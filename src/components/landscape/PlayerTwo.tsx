@@ -85,7 +85,9 @@ const PlayerTwo = ({
       {/* Buttons */}
       <div className="align-center my-5 flex flex-col px-12">
         {sum <= 21 ? (
-          <p className="mb-auto w-40 text-center text-3xl text-white">{sum}</p>
+          <p className="mb-auto w-40 text-center text-xl text-white lg:text-3xl">
+            {sum}
+          </p>
         ) : (
           <PlayerTwoModal sum={sum} />
         )}
