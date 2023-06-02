@@ -92,7 +92,7 @@ const PlayerTwo = ({
 
         {!stand && sum < 22 ? (
           <button
-            className="mt-4 h-8 w-40 self-center rounded bg-red-500 px-4 font-bold text-white hover:bg-red-700"
+            className="click mt-4 h-8 w-40 self-center rounded bg-red-500 px-4 font-bold text-white hover:bg-red-700"
             type="button"
             onClick={handleStand}
           >
@@ -101,7 +101,7 @@ const PlayerTwo = ({
         ) : null}
         {!stand && sum < 22 ? (
           <button
-            className="mt-4 h-8 w-40 self-center rounded bg-yellow-500 px-4 font-bold text-white hover:bg-yellow-700"
+            className="click mt-4 h-8 w-40 self-center rounded bg-yellow-500 px-4 font-bold text-white"
             type="button"
             onClick={handleIncrement}
           >
@@ -111,7 +111,7 @@ const PlayerTwo = ({
 
         {sum > 21 ? (
           <button
-            className="mt-auto h-8 w-40 self-center rounded bg-green-500 px-4 font-bold text-white hover:bg-green-700"
+            className="click mt-auto h-8 w-40 self-center rounded bg-green-700 px-4 font-bold text-white"
             type="button"
             onClick={shuffleDeal}
           >

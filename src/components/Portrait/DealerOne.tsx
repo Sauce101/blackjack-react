@@ -145,7 +145,7 @@ const DealerOne = ({
         )}
         {stand && sum3 < 18 ? (
           <button
-            className="w-30 my-auto ml-auto h-8 self-center rounded bg-yellow-500 px-4 font-bold text-white hover:bg-yellow-700"
+            className="click w-30 my-auto ml-auto h-8 self-center rounded bg-yellow-500 px-4 font-bold text-white"
             type="button"
             onClick={handleIncrement}
           >
@@ -155,7 +155,7 @@ const DealerOne = ({
 
         {stand && sum3 > 17 ? (
           <button
-            className="w-30 my-auto ml-auto rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700"
+            className="click w-30 my-auto ml-auto rounded bg-green-500 px-4 py-2 font-bold text-white"
             type="button"
             onClick={shuffleDeal}
           >

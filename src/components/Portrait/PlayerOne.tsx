@@ -95,7 +95,7 @@ const PlayerOne = ({
 
         {!stand && sum < 22 ? (
           <button
-            className="w-30 my-auto mr-2 h-8 self-center rounded bg-red-500 px-4 font-bold text-white hover:bg-red-700"
+            className="click w-30 my-auto mr-2 h-8 self-center rounded bg-red-500 px-4 font-bold text-white hover:bg-red-700"
             type="button"
             onClick={handleStand}
           >
@@ -105,7 +105,7 @@ const PlayerOne = ({
 
         {!stand && sum < 22 ? (
           <button
-            className="w-30 my-auto h-8 self-center rounded bg-yellow-500 px-4 font-bold text-white hover:bg-yellow-700"
+            className="click w-30 my-auto h-8 self-center rounded bg-yellow-500 px-4 font-bold text-white"
             type="button"
             onClick={handleIncrement}
           >
@@ -115,7 +115,7 @@ const PlayerOne = ({
 
         {sum > 21 ? (
           <button
-            className="w-30 my-auto rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700"
+            className="click w-30 my-auto rounded bg-green-500 px-4 py-2 font-bold text-white"
             type="button"
             onClick={shuffleDeal}
           >

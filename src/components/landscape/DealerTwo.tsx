@@ -143,7 +143,7 @@ const DealerTwo = ({
         )}
         {stand && sum3 < 18 ? (
           <button
-            className="mt-auto h-8 w-40 self-center rounded bg-yellow-500 px-4 font-bold text-white active:bg-yellow-700"
+            className="click mt-auto h-8 w-40 self-center rounded bg-yellow-500 px-4 font-bold text-white"
             type="button"
             onClick={handleIncrement}
           >
@@ -152,7 +152,7 @@ const DealerTwo = ({
         ) : null}
         {stand && sum3 > 17 ? (
           <button
-            className="mt-auto h-8 w-40 self-center rounded bg-green-500 px-4 font-bold text-white hover:bg-green-700"
+            className="click mt-auto h-8 w-40 self-center rounded bg-green-700 px-4 font-bold text-white hover:bg-green-700"
             type="button"
             onClick={shuffleDeal}
           >
