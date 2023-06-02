@@ -22,5 +22,10 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/function-component-definition': 0,
+    'no-return-assign': 0,
+    'no-multi-assign': 0,
+    'react-hooks/exhaustive-deps': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    'consistent-return': 0,
   },
 };
