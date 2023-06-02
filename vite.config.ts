@@ -12,8 +12,8 @@ export default defineConfig({
         enabled: true,
       },
       manifest: {
-        name: 'BlackJack Astro',
-        short_name: 'BlackJack Astro',
+        name: 'BlackJackSauce',
+        short_name: 'BlackJack',
         start_url: '/',
         display: 'standalone',
         orientation: 'any',

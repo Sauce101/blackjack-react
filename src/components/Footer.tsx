@@ -1,7 +1,12 @@
 function Footer() {
   return (
-    <footer className="fixed bottom-0 left-0 right-0 bg-gray-200 text-center lg:text-left">
-      <div className="font-exo p-3 text-center font-normal text-gray-700">
+    // <footer className="fixed bottom-0 left-0 right-0 hidden bg-green-900 text-center lg:text-left">
+    //   <div className="p-3 text-center font-normal text-white">
+    //     © 2023 Michael Saucedo
+    //   </div>
+    // </footer>
+    <footer className="fixed bottom-0 left-0 right-0 text-center">
+      <div className="text-center font-normal text-white lg:p-3 portrait:p-3">
         © 2023 Michael Saucedo
       </div>
     </footer>

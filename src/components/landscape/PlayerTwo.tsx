@@ -66,7 +66,7 @@ const PlayerTwo = ({
   // ACES 11 or 1 - END
 
   return (
-    <div className="mb-12 flex">
+    <div className="flex">
       {/* Cards */}
       <div id="demo" className="mr-auto flex px-12">
         {result === null
