@@ -84,7 +84,7 @@ const PlayerOne = ({
         </div>
       </div>
       {/* Buttons */}
-      <div className="my-5 flex flex-row px-12 align-middle">
+      <div className="flex flex-row px-12 align-middle">
         {sum <= 21 ? (
           <p className="my-auto mr-auto w-6 text-center text-xl text-white sm:text-3xl">
             {sum}

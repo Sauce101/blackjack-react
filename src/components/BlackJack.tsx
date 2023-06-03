@@ -4,12 +4,10 @@ import DealerTwo from './landscape/DealerTwo';
 import PlayerTwo from './landscape/PlayerTwo';
 import DealerOne from './Portrait/DealerOne';
 import PlayerOne from './Portrait/PlayerOne';
-import Footer from './Footer';
 
 const BlackJack = () => {
   const [result, setResult] = useState<any>(null);
   const [cardValue, setCardValue] = useState<string[]>([]);
-  // const [cardValue, setCardValue] = useState<number[]>([]);
   const [cardCount, setCardCount] = useState<number>(4);
   const [shuffle, setShuffle] = useState<boolean>(false);
   const [stand, setStand] = useState<boolean>(false);
@@ -59,7 +57,6 @@ const BlackJack = () => {
           setShuffle={setShuffle}
           setStand={setStand}
         />
-        {/* <Footer /> */}
       </div>
       <div className="flex min-h-screen flex-col justify-evenly bg-green-900 portrait:hidden">
         <DealerTwo
@@ -81,7 +78,6 @@ const BlackJack = () => {
           setStand={setStand}
         />
       </div>
-      <Footer />
     </>
   );
 };

@@ -27,5 +27,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 0,
     '@typescript-eslint/no-explicit-any': 0,
     'consistent-return': 0,
+    'import/no-extraneous-dependencies': 0,
   },
 };

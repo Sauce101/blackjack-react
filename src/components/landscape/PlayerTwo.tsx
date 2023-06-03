@@ -66,9 +66,9 @@ const PlayerTwo = ({
   // ACES 11 or 1 - END
 
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between px-12">
       {/* Cards */}
-      <div className="flex flex-row px-12">
+      <div className="flex=row flex">
         {result === null
           ? 'loading'
           : result.cards
@@ -78,12 +78,12 @@ const PlayerTwo = ({
                   src={item.image}
                   alt={item.code}
                   key={item.code}
-                  className="h-40 sm:-mr-16 lg:h-52"
+                  className="-mr-10 h-40 lg:-mr-16 lg:h-52"
                 />
               ))}
       </div>
       {/* Buttons */}
-      <div className="align-center flex flex-col px-12 lg:my-4">
+      <div className="align-center flex flex-col lg:my-4">
         {sum <= 21 ? (
           <p className="mb-auto w-40 text-center text-2xl text-white lg:text-3xl">
             {sum}

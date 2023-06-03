@@ -85,10 +85,10 @@ const DealerTwo = ({
   // ACES 11 or 1 - END
 
   return (
-    <div className="flex justify-between">
-      <div className="flex flex-row px-12">
+    <div className="flex justify-between px-12">
+      <div className="flex justify-start">
         {/* Card one index zero[0] */}
-        <div className="flex -mr-24 sm:-mr-16">
+        <div className="-mr-10 flex lg:-mr-16">
           <img src={redMaze} alt="..." className="z-0 h-40 lg:h-52" />
           {stand &&
             result.cards
@@ -98,7 +98,7 @@ const DealerTwo = ({
                   src={item.image}
                   alt={item.code}
                   key={item.code}
-                  className={`absolute -mr-24 h-40 sm:-mr-16 lg:h-52 ${
+                  className={`absolute -mr-10 h-40 lg:-mr-16 lg:h-52 ${
                     stand && 'z-10'
                   }`}
                 />
@@ -114,7 +114,7 @@ const DealerTwo = ({
                   src={item.image}
                   alt={item.code}
                   key={item.code}
-                  className="z-20 -mr-24 h-40 sm:-mr-16 lg:h-52"
+                  className="z-20 -mr-10 h-40 lg:-mr-16 lg:h-52"
                 />
               ))}
         {/* Drawn Cards */}
@@ -126,14 +126,14 @@ const DealerTwo = ({
                   src={item.image}
                   alt={item.code}
                   key={item.code}
-                  className="z-30 -mr-24 h-40 sm:-mr-16 lg:h-52"
+                  className="z-30 -mr-10 h-40 lg:-mr-16 lg:h-52"
                 />
               ))
           : null}
       </div>
 
       {/* Buttons */}
-      <div className="align-center flex flex-col px-12">
+      <div className="align-center flex flex-col">
         {sum3 <= 21 ? (
           <p className="mb-auto w-40 self-center text-center text-2xl text-white lg:text-3xl">
             {stand ? sum3 : '--'}
