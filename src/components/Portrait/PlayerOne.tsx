@@ -115,7 +115,7 @@ const PlayerOne = ({
 
         {sum > 21 ? (
           <button
-            className="click w-30 my-auto rounded bg-green-500 px-4 py-2 font-bold text-white"
+            className="click w-30 my-auto rounded bg-green-700 px-4 py-2 font-bold text-white"
             type="button"
             onClick={shuffleDeal}
           >

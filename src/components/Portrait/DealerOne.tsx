@@ -89,7 +89,7 @@ const DealerOne = ({
       <div className="row-span-2">
         <div className="flex flex-row px-12">
           {/* Card One index Zero[0] */}
-          <div className="-mr-28 flex sm:-mr-16">
+          <div className="flex -mr-28 sm:-mr-16">
             <img src={`${redMaze}`} alt="..." className="z-0 h-48" />
             {stand &&
               result.cards
@@ -135,7 +135,7 @@ const DealerOne = ({
       </div>
 
       {/* Buttons */}
-      <div className="align-center my-5 flex flex-row px-12">
+      <div className="align-center flex my-5 flex-row px-12">
         {sum3 <= 21 ? (
           <p className="my-auto mr-auto w-6 text-center text-xl text-white sm:text-3xl">
             {stand ? sum3 : '--'}
@@ -155,7 +155,7 @@ const DealerOne = ({
 
         {stand && sum3 > 17 ? (
           <button
-            className="click w-30 my-auto ml-auto rounded bg-green-500 px-4 py-2 font-bold text-white"
+            className="click w-30 my-auto ml-auto rounded bg-green-700 px-4 py-2 font-bold text-white"
             type="button"
             onClick={shuffleDeal}
           >

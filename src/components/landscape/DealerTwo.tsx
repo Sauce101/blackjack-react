@@ -85,10 +85,10 @@ const DealerTwo = ({
   // ACES 11 or 1 - END
 
   return (
-    <div className="flex">
-      <div className="mr-auto flex flex-row px-12">
+    <div className="flex justify-between">
+      <div className="flex flex-row px-12">
         {/* Card one index zero[0] */}
-        <div className="-mr-24 flex sm:-mr-16">
+        <div className="flex -mr-24 sm:-mr-16">
           <img src={redMaze} alt="..." className="z-0 h-40 lg:h-52" />
           {stand &&
             result.cards

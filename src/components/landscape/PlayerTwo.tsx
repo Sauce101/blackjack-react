@@ -66,9 +66,9 @@ const PlayerTwo = ({
   // ACES 11 or 1 - END
 
   return (
-    <div className="flex">
+    <div className="flex justify-between">
       {/* Cards */}
-      <div id="demo" className="mr-auto flex px-12">
+      <div className="flex flex-row px-12">
         {result === null
           ? 'loading'
           : result.cards
@@ -78,7 +78,7 @@ const PlayerTwo = ({
                   src={item.image}
                   alt={item.code}
                   key={item.code}
-                  className="-mr-24 h-40 sm:-mr-16 lg:h-52"
+                  className="h-40 sm:-mr-16 lg:h-52"
                 />
               ))}
       </div>
@@ -117,7 +117,7 @@ const PlayerTwo = ({
             type="button"
             onClick={shuffleDeal}
           >
-            NEW GAME?
+            New Game?
           </button>
         ) : null}
       </div>
